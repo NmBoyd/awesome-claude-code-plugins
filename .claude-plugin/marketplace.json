@@ -5,7 +5,7 @@
     "email": "support@claudecodeplugins.dev"
   },
   "metadata": {
-    "description": "Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code",
+    "description": "Awesome Claude Code plugins \u2014 a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code",
     "version": "0.0.1",
     "homepage": "https://claudecodeplugins.dev"
   },
@@ -73,7 +73,7 @@
     {
       "name": "ultrathink",
       "source": "./plugins/ultrathink",
-      "description": "Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to analyze, design, implement, and validate your coding task. The process breaks the task into clear steps, gathers insights, and synthesizes a cohesive solution with actionable outputs. Relevant files can be referenced ad-hoc using @ filename syntax.",
+      "description": "Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents\u2014Architect, Research, Coder, and Tester\u2014to analyze, design, implement, and validate your coding task. The process breaks the task into clear steps, gathers insights, and synthesizes a cohesive solution with actionable outputs. Relevant files can be referenced ad-hoc using @ filename syntax.",
       "version": "1.0.0",
       "author": {
         "name": "Jeronim Morina"
@@ -458,18 +458,6 @@
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/husky"
     },
     {
-      "name": "2-commit-fast",
-      "source": "./plugins/2-commit-fast",
-      "description": "Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-Contributorship footer",
-      "version": "1.0.0",
-      "author": {
-        "name": "steadycursor",
-        "url": "https://github.com/steadycursor"
-      },
-      "category": "general",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/2-commit-fast"
-    },
-    {
       "name": "pr-issue-resolve",
       "source": "./plugins/pr-issue-resolve",
       "description": "this is to analyze the PRs and solve the requested changes in them\n",
@@ -506,20 +494,6 @@
       ]
     },
     {
-      "name": "accessibility-expert",
-      "source": "./plugins/accessibility-expert",
-      "description": "Examples:",
-      "version": "1.0.0",
-      "author": {
-        "name": "Alysson Franklin"
-      },
-      "category": "agents",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/accessibility-expert",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "ai-engineer",
       "source": "./plugins/ai-engineer",
       "description": "Use this agent when implementing AI/ML features, integrating language models, building recommendation systems, or adding intelligent automation to applications. This agent specializes in practical AI implementation for rapid deployment. Examples:\\n\\n<example>\\nContext: Adding AI features to an app\\nuser: \"We need AI-powered content recommendations\"\\nassistant: \"I'll implement a smart recommendation engine. Let me use the ai-engineer agent to build an ML pipeline that learns from user behavior.\"\\n<commentary>\\nRecommendation systems require careful ML implementation and continuous learning capabilities.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Integrating language models\\nuser: \"Add an AI chatbot to help users navigate our app\"\\nassistant: \"I'll integrate a conversational AI assistant. Let me use the ai-engineer agent to implement proper prompt engineering and response handling.\"\\n<commentary>\\nLLM integration requires expertise in prompt design, token management, and response streaming.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Implementing computer vision features\\nuser: \"Users should be able to search products by taking a photo\"\\nassistant: \"I'll implement visual search using computer vision. Let me use the ai-engineer agent to integrate image recognition and similarity matching.\"\\n<commentary>\\nComputer vision features require efficient processing and accurate model selection.\\n</commentary>\\n</example>",
@@ -543,20 +517,6 @@
       },
       "category": "Security, Compliance, & Legal",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ai-ethics-governance-specialist",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "analytics-reporter",
-      "source": "./plugins/analytics-reporter",
-      "description": "Use this agent when analyzing metrics, generating insights from data, creating performance reports, or making data-driven recommendations. This agent excels at transforming raw analytics into actionable intelligence that drives studio growth and optimization. Examples:\\n\\n<example>\\nContext: Monthly performance review needed",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Data Analytics",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/analytics-reporter",
       "keywords": [
         "subagent"
       ]
@@ -604,34 +564,6 @@
       ]
     },
     {
-      "name": "app-store-optimizer",
-      "source": "./plugins/app-store-optimizer",
-      "description": "Use this agent when preparing app store listings, researching keywords, optimizing app metadata, improving conversion rates, or analyzing app store performance. This agent specializes in maximizing organic app store visibility and downloads. Examples:\\n\\n<example>\\nContext: Preparing for app launch",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Marketing Growth",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/app-store-optimizer",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "b2b-project-shipper",
-      "source": "./plugins/b2b-project-shipper",
-      "description": "PROACTIVELY use this agent when approaching B2B launch milestones, enterprise release deadlines, or B2B go-to-market activities. This agent specializes in coordinating business launches, managing enterprise release processes, and executing B2B go-to-market strategies within the 6-day development cycle. Should be triggered automatically when enterprise release dates are set, B2B launch plans are needed, or business market positioning is discussed. Examples:",
-      "version": "1.0.0",
-      "author": {
-        "name": "Alysson Franklin"
-      },
-      "category": "Business Sales",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/b2b-project-shipper",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "backend-architect",
       "source": "./plugins/backend-architect",
       "description": "Use this agent when designing APIs, building server-side logic, implementing databases, or architecting scalable backend systems. This agent specializes in creating robust, secure, and performant backend services. Examples:\\n\\n<example>\\nContext: Designing a new API\\nuser: \"We need an API for our social sharing feature\"\\nassistant: \"I'll design a RESTful API with proper authentication and rate limiting. Let me use the backend-architect agent to create a scalable backend architecture.\"\\n<commentary>\\nAPI design requires careful consideration of security, scalability, and maintainability.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Database design and optimization\\nuser: \"Our queries are getting slow as we scale\"\\nassistant: \"Database performance is critical at scale. I'll use the backend-architect agent to optimize queries and implement proper indexing strategies.\"\\n<commentary>\\nDatabase optimization requires deep understanding of query patterns and indexing strategies.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Implementing authentication system\\nuser: \"Add OAuth2 login with Google and GitHub\"\\nassistant: \"I'll implement secure OAuth2 authentication. Let me use the backend-architect agent to ensure proper token handling and security measures.\"\\n<commentary>\\nAuthentication systems require careful security considerations and proper implementation.\\n</commentary>\\n</example>",
@@ -641,20 +573,6 @@
       },
       "category": "Development Engineering",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/backend-architect",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "brand-guardian",
-      "source": "./plugins/brand-guardian",
-      "description": "Use this agent when establishing brand guidelines, ensuring visual consistency, managing brand assets, or evolving brand identity. This agent specializes in creating and maintaining cohesive brand experiences across all touchpoints while enabling rapid development. Examples:\\n\\n<example>\\nContext: Creating brand guidelines for a new app",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Design UX",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/brand-guardian",
       "keywords": [
         "subagent"
       ]
@@ -744,20 +662,6 @@
       ]
     },
     {
-      "name": "content-creator",
-      "source": "./plugins/content-creator",
-      "description": "Content Creator subagent",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Marketing Growth",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/content-creator",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "context7-docs-fetcher",
       "source": "./plugins/context7-docs-fetcher",
       "description": "Use this agent when you need to fetch and utilize documentation from Context7 for specific libraries or frameworks. Examples: <example>Context: User is building a React application and needs documentation about hooks. user: 'I need to implement useState and useEffect in my React component' assistant: 'I'll use the context7-docs-fetcher agent to get the latest React documentation about hooks' <commentary>Since the user needs specific React documentation, use the context7-docs-fetcher agent to fetch relevant docs and provide accurate guidance.</commentary></example> <example>Context: User is working with Express.js and MongoDB and needs setup guidance. user: 'How do I create a REST API with Express and connect to MongoDB?' assistant: 'Let me use the context7-docs-fetcher agent to get the current documentation for both Express.js and MongoDB' <commentary>The user needs documentation for multiple libraries, so use the context7-docs-fetcher agent to fetch comprehensive docs.</commentary></example>",
@@ -772,20 +676,6 @@
       ]
     },
     {
-      "name": "customer-success-manager",
-      "source": "./plugins/customer-success-manager",
-      "description": "Use this agent when you need to optimize customer success operations for B2B enterprise clients. This agent specializes in customer health monitoring, expansion revenue identification, churn prevention, enterprise account management, and customer lifecycle optimization. Handles enterprise onboarding, adoption tracking, and strategic account growth. Examples:",
-      "version": "1.0.0",
-      "author": {
-        "name": "Alysson Franklin"
-      },
-      "category": "Business Sales",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/customer-success-manager",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "data-privacy-engineer",
       "source": "./plugins/data-privacy-engineer",
       "description": "Use this agent when you need to implement data privacy engineering, GDPR compliance, data protection frameworks, and privacy-by-design principles for B2B applications. This agent specializes in privacy engineering, data minimization, consent management, and global privacy regulation compliance for enterprise platforms. Examples:",
@@ -795,20 +685,6 @@
       },
       "category": "Security, Compliance, & Legal",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/data-privacy-engineer",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "data-scientist",
-      "source": "./plugins/data-scientist",
-      "description": "Data analysis expert for SQL queries, BigQuery operations, and data insights. Use proactively for data analysis tasks and queries.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Anand Tyagi"
-      },
-      "category": "Data Analytics",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/data-scientist",
       "keywords": [
         "subagent"
       ]
@@ -847,7 +723,7 @@
       "description": "Use this agent when setting up CI/CD pipelines, configuring Docker containers, deploying applications to cloud platforms, setting up Kubernetes clusters, implementing infrastructure as code, or automating deployment workflows. Examples: <example>Context: User is setting up a new project and needs deployment automation. user: \"I've built a FastAPI application and need to deploy it to production with proper CI/CD\" assistant: \"I'll use the deployment-engineer agent to set up a complete deployment pipeline with Docker, GitHub Actions, and production-ready configurations.\"</example> <example>Context: User mentions containerization or deployment issues. user: \"Our deployment process is manual and error-prone. We need to automate it.\" assistant: \"Let me use the deployment-engineer agent to design an automated CI/CD pipeline that eliminates manual steps and ensures reliable deployments.\"</example>",
       "version": "1.0.0",
       "author": {
-        "name": "Jure Šunić"
+        "name": "Jure \u0160uni\u0107"
       },
       "category": "Automation DevOps",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/deployment-engineer",
@@ -898,20 +774,6 @@
       ]
     },
     {
-      "name": "enterprise-onboarding-specialist",
-      "source": "./plugins/enterprise-onboarding-specialist",
-      "description": "Use this agent when you need to design and optimize complex enterprise customer onboarding processes involving multiple stakeholders, change management, and organizational adoption. This agent specializes in enterprise implementation strategy, stakeholder management, change management, and large-scale rollout coordination for B2B platforms. Examples:",
-      "version": "1.0.0",
-      "author": {
-        "name": "Alysson Franklin"
-      },
-      "category": "Business Sales",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/enterprise-onboarding-specialist",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "enterprise-security-reviewer",
       "source": "./plugins/enterprise-security-reviewer",
       "description": "Use this agent for comprehensive B2B security assessments, enterprise compliance validation, multi-tenant security reviews, and security audit preparation. This agent specializes in SOC 2, GDPR, ISO 27001 compliance and enterprise-grade security implementations for B2B SaaS platforms. Examples:",
@@ -921,48 +783,6 @@
       },
       "category": "Security, Compliance, & Legal",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/enterprise-security-reviewer",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "experiment-tracker",
-      "source": "./plugins/experiment-tracker",
-      "description": "PROACTIVELY use this agent when experiments are started, modified, or when results need analysis. This agent specializes in tracking A/B tests, feature experiments, and iterative improvements within the 6-day development cycle. Should be triggered automatically when experimental code paths or feature flags are introduced. Examples:\\n\\n<example>\\nContext: When implementing feature flags or A/B test variants\\nuser: \"Add a feature flag to test the new onboarding flow\"\\nassistant: \"I've implemented the feature flag for the onboarding flow A/B test. Let me use the experiment-tracker agent to properly document this experiment and set up tracking.\"\\n<commentary>\\nEvery feature flag represents an experiment that needs proper tracking and success metrics.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: After deploying experimental features\\nuser: \"The new viral sharing feature is now live for 10% of users\"\\nassistant: \"Great! The viral sharing feature is deployed. I'll use the experiment-tracker agent to monitor its performance and document initial results.\"\\n<commentary>\\nLive experiments need immediate tracking setup to capture valuable data from the start.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: When reaching experiment milestones\\nuser: \"It's been a week since we launched the TikTok integration test\"\\nassistant: \"Perfect timing for analysis. Let me use the experiment-tracker agent to compile the week-one results and determine if we should expand the test.\"\\n<commentary>\\nRegular experiment checkpoints ensure data-driven decisions about feature rollouts.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Before making product decisions\\nuser: \"Should we keep the AI avatar feature or remove it?\"\\nassistant: \"Let me analyze the experiment data to inform this decision. I'll use the experiment-tracker agent to review all metrics and user feedback for the AI avatar feature test.\"\\n<commentary>\\nProduct decisions should be backed by experiment data, not gut feelings.\\n</commentary>\\n</example>",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Data Analytics",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/experiment-tracker",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "feedback-synthesizer",
-      "source": "./plugins/feedback-synthesizer",
-      "description": "Use this agent when you need to analyze user feedback from multiple sources, identify patterns in user complaints or requests, synthesize insights from reviews, or prioritize feature development based on user input. This agent excels at turning raw feedback into actionable product insights. Examples:\\n\\n<example>\\nContext: Weekly review of user feedback",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Data Analytics",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/feedback-synthesizer",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "finance-tracker",
-      "source": "./plugins/finance-tracker",
-      "description": "Use this agent when managing budgets, optimizing costs, forecasting revenue, or analyzing financial performance. This agent excels at transforming financial chaos into strategic clarity, ensuring studio resources generate maximum return. Examples:\\n\\n<example>\\nContext: Planning next quarter's development budget",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Business Sales",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/finance-tracker",
       "keywords": [
         "subagent"
       ]
@@ -996,20 +816,6 @@
       ]
     },
     {
-      "name": "growth-hacker",
-      "source": "./plugins/growth-hacker",
-      "description": "Growth Hacker subagent",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Marketing Growth",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/growth-hacker",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "infrastructure-maintainer",
       "source": "./plugins/infrastructure-maintainer",
       "description": "Use this agent when monitoring system health, optimizing performance, managing scaling, or ensuring infrastructure reliability. This agent excels at keeping studio applications running smoothly while preparing for growth and preventing disasters. Examples:\\n\\n<example>\\nContext: App experiencing slow performance",
@@ -1019,34 +825,6 @@
       },
       "category": "Automation DevOps",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/infrastructure-maintainer",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "instagram-curator",
-      "source": "./plugins/instagram-curator",
-      "description": "Instagram Curator subagent",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Marketing Growth",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/instagram-curator",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "joker",
-      "source": "./plugins/joker",
-      "description": "Use this agent when you need to lighten the mood, create funny content, or add humor to any situation. This agent specializes in dad jokes, programming puns, and startup humor. Examples:\\n\\n<example>\\nContext: Team needs a laugh during a stressful sprint\\nuser: \"We've been debugging for hours and everyone's frustrated\"\\nassistant: \"Time for a morale boost! Let me use the joker agent to share some programming humor.\"\\n<commentary>\\nHumor can help reset team energy during challenging moments.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Creating fun error messages\\nuser: \"Our 404 page is boring\"\\nassistant: \"Let's make that error page memorable! I'll use the joker agent to create some funny 404 messages.\"\\n<commentary>\\nHumorous error pages can turn frustration into delight.\\n</commentary>\\n</example>",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Design UX",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/joker",
       "keywords": [
         "subagent"
       ]
@@ -1094,20 +872,6 @@
       ]
     },
     {
-      "name": "mobile-ux-optimizer",
-      "source": "./plugins/mobile-ux-optimizer",
-      "description": "Use this agent when you need to optimize UI/UX components or interfaces for mobile-first experiences, analyze existing design themes, or ensure mobile usability standards are met. Examples: <example>Context: User has created a desktop-focused component and needs it optimized for mobile. user: 'I've built this navigation component but it's not working well on mobile devices' assistant: 'Let me use the mobile-ux-optimizer agent to analyze and improve this component for mobile-first experience' <commentary>The user needs mobile optimization expertise, so use the mobile-ux-optimizer agent to provide specific mobile UX improvements.</commentary></example> <example>Context: User is implementing a new feature and wants to ensure it follows the existing design theme. user: 'I'm adding a new form component to the app, can you help make sure it matches our design system?' assistant: 'I'll use the mobile-ux-optimizer agent to ensure this form component aligns with your existing theme and mobile-first principles' <commentary>Since this involves both theme consistency and mobile optimization, the mobile-ux-optimizer agent is the right choice.</commentary></example>",
-      "version": "1.0.0",
-      "author": {
-        "name": "abhishek shah"
-      },
-      "category": "Design UX",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/mobile-ux-optimizer",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "model-context-protocol-mcp-expert",
       "source": "./plugins/model-context-protocol-mcp-expert",
       "description": "Model Context Protocol Mcp Expert subagent",
@@ -1141,24 +905,10 @@
       "description": "Use this agent when you need to design, build, or validate n8n automation workflows. This agent specializes in creating efficient n8n workflows using proper validation techniques and MCP tools integration.\\n\\nExamples:\\n- <example>\\n  Context: User wants to create a Slack notification workflow when a new GitHub issue is created.\\n  user: \"I need to create an n8n workflow that sends a Slack message whenever a new GitHub issue is opened\"\\n  assistant: \"I'll use the n8n-workflow-builder agent to design and build this GitHub-to-Slack automation workflow with proper validation.\"\\n  <commentary>\\n  The user needs n8n workflow creation, so use the n8n-workflow-builder agent to handle the complete workflow design, validation, and deployment process.\\n  </commentary>\\n</example>\\n- <example>\\n  Context: User has an existing n8n workflow that needs debugging and optimization.\\n  user: \"My n8n workflow keeps failing at the HTTP Request node, can you help me fix it?\"\\n  assistant: \"I'll use the n8n-workflow-builder agent to analyze and debug your workflow, focusing on the HTTP Request node configuration.\"\\n  <commentary>\\n  Since this involves n8n workflow troubleshooting and validation, use the n8n-workflow-builder agent to diagnose and fix the issue.\\n  </commentary>\\n</example>\\n- <example>\\n  Context: User wants to understand n8n best practices and available nodes for a specific use case.\\n  user: \"What are the best n8n nodes for processing CSV data and sending email reports?\"\\n  assistant: \"I'll use the n8n-workflow-builder agent to explore the available nodes and recommend the best approach for CSV processing and email automation.\"\\n  <commentary>\\n  This requires n8n expertise and node discovery, so use the n8n-workflow-builder agent to provide comprehensive guidance.\\n  </commentary>\\n</example>",
       "version": "1.0.0",
       "author": {
-        "name": "Jure Šunić"
+        "name": "Jure \u0160uni\u0107"
       },
       "category": "Automation DevOps",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/n8n-workflow-builder",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "onomastophes",
-      "source": "./plugins/onomastophes",
-      "description": "Use proactively for generating creative non-olympian Greek god names with rich backstories, mythological authenticity, and modern accessibility for storytelling projects",
-      "version": "1.0.0",
-      "author": {
-        "name": "normalnormie"
-      },
-      "category": "Design UX",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/onomastophes",
       "keywords": [
         "subagent"
       ]
@@ -1197,24 +947,10 @@
       "description": "Use this agent when you need to create comprehensive Product Requirements Documents (PRDs) that combine business strategy, technical architecture, and user research. Examples: <example>Context: The user needs to create a PRD for a new feature or product launch. user: \"I need to create a PRD for our new user authentication system that will support SSO and multi-factor authentication\" assistant: \"I'll use the prd-specialist agent to create a comprehensive PRD that covers the strategic foundation, technical requirements, and implementation blueprint for your authentication system.\"</example> <example>Context: The user is planning a major product initiative and needs strategic documentation. user: \"We're launching a mobile app for our e-commerce platform and need a detailed PRD to guide development\" assistant: \"Let me engage the prd-specialist agent to develop a thorough PRD that includes market analysis, user research integration, technical architecture, and implementation roadmap for your mobile app initiative.\"</example>",
       "version": "1.0.0",
       "author": {
-        "name": "Jure Šunić"
+        "name": "Jure \u0160uni\u0107"
       },
       "category": "Project & Product Management",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/prd-specialist",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "pricing-packaging-specialist",
-      "source": "./plugins/pricing-packaging-specialist",
-      "description": "Use this agent when you need to optimize B2B pricing strategies, packaging models, and revenue optimization for enterprise sales. This agent specializes in value-based pricing, usage-based billing, enterprise contract negotiations, and competitive pricing analysis for SaaS platforms. Examples:",
-      "version": "1.0.0",
-      "author": {
-        "name": "Alysson Franklin"
-      },
-      "category": "Business Sales",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/pricing-packaging-specialist",
       "keywords": [
         "subagent"
       ]
@@ -1229,20 +965,6 @@
       },
       "category": "Workflow Orchestration",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/problem-solver-specialist",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "product-sales-specialist",
-      "source": "./plugins/product-sales-specialist",
-      "description": "Use this agent when you need to support B2B sales through product design, user research, project management, and creative RFP responses. This agent specializes in creating compelling product demonstrations, design-focused RFP sections, user experience narratives, and project management frameworks that win enterprise deals. Combines product expertise with sales enablement. Examples:",
-      "version": "1.0.0",
-      "author": {
-        "name": "Alysson Franklin"
-      },
-      "category": "Business Sales",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/product-sales-specialist",
       "keywords": [
         "subagent"
       ]
@@ -1281,7 +1003,7 @@
       "description": "Use this agent when working with Python code that requires advanced features, performance optimization, or comprehensive refactoring. Examples: <example>Context: User needs to optimize a slow Python function that processes large datasets. user: \"This function is taking too long to process our data, can you help optimize it?\" assistant: \"I'll use the python-expert agent to analyze and optimize your Python code with advanced techniques and performance profiling.\"</example> <example>Context: User wants to implement async/await patterns in their existing synchronous Python code. user: \"I need to convert this synchronous code to use async/await for better performance\" assistant: \"Let me use the python-expert agent to refactor your code with proper async/await patterns and concurrent programming techniques.\"</example> <example>Context: User needs help implementing complex Python design patterns. user: \"I want to implement a factory pattern with decorators for my API endpoints\" assistant: \"I'll use the python-expert agent to implement advanced Python patterns with decorators and proper design principles.\"</example>",
       "version": "1.0.0",
       "author": {
-        "name": "Jure Šunić"
+        "name": "Jure \u0160uni\u0107"
       },
       "category": "Development Engineering",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/python-expert",
@@ -1313,20 +1035,6 @@
       },
       "category": "Development Engineering",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/react-native-dev",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "reddit-community-builder",
-      "source": "./plugins/reddit-community-builder",
-      "description": "Reddit Community Builder subagent",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Marketing Growth",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/reddit-community-builder",
       "keywords": [
         "subagent"
       ]
@@ -1374,34 +1082,6 @@
       ]
     },
     {
-      "name": "support-responder",
-      "source": "./plugins/support-responder",
-      "description": "Use this agent when handling customer support inquiries, creating support documentation, setting up automated responses, or analyzing support patterns. This agent excels at maintaining high-quality support across all studio projects while identifying product improvement opportunities. Examples:\\n\\n<example>\\nContext: Setting up support for a new app launch",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Business Sales",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/support-responder",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "technical-sales-engineer",
-      "source": "./plugins/technical-sales-engineer",
-      "description": "Use this agent when you need to bridge technical and sales requirements for B2B enterprise deals. This agent specializes in technical demos, POC development, RFP responses, solution architecture for sales, and technical objection handling. Handles complex enterprise sales cycles with technical evaluation phases. Examples:",
-      "version": "1.0.0",
-      "author": {
-        "name": "Alysson Franklin"
-      },
-      "category": "Business Sales",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/technical-sales-engineer",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "test-results-analyzer",
       "source": "./plugins/test-results-analyzer",
       "description": "Use this agent for analyzing test results, synthesizing test data, identifying trends, and generating quality metrics reports. This agent specializes in turning raw test data into actionable insights that drive quality improvements. Examples:\\n\\n<example>\\nContext: Analyzing test suite results",
@@ -1430,20 +1110,6 @@
       ]
     },
     {
-      "name": "tiktok-strategist",
-      "source": "./plugins/tiktok-strategist",
-      "description": "Use this agent when you need to create TikTok marketing strategies, develop viral content ideas, plan TikTok campaigns, or optimize for TikTok's algorithm. This agent specializes in creating shareable moments and leveraging TikTok trends for app growth. Examples:\\n\\n<example>\\nContext: Launching a new app and need TikTok strategy\\nuser: \"We're launching our phone anxiety app next week. How should we approach TikTok?\"\\nassistant: \"TikTok will be crucial for your launch. Let me use the tiktok-strategist agent to create a comprehensive TikTok marketing strategy for your phone anxiety app.\"\\n<commentary>\\nNew app launches benefit from TikTok's viral potential and young user base.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Creating viral content for an existing app\\nuser: \"Our meditation app needs more downloads. What kind of TikTok content should we make?\"\\nassistant: \"I'll help you create viral TikTok content ideas. Let me use the tiktok-strategist agent to develop content that showcases your app in trending formats.\"\\n<commentary>\\nExisting apps can boost downloads through strategic TikTok content that fits platform culture.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Identifying TikTok influencers for partnerships\\nuser: \"Should we work with TikTok creators to promote our app?\"\\nassistant: \"Creator partnerships can be very effective. Let me use the tiktok-strategist agent to identify the right creators and collaboration strategies for your app.\"\\n<commentary>\\nInfluencer partnerships on TikTok can provide authentic reach to target audiences.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Optimizing app features for TikTok sharing\\nuser: \"How can we make our app more TikTok-friendly?\"\\nassistant: \"Making your app TikTok-native is smart. I'll use the tiktok-strategist agent to identify features and moments in your app that users would want to share on TikTok.\"\\n<commentary>\\nApps with built-in TikTok-worthy moments see higher organic growth through user-generated content.\\n</commentary>\\n</example>",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Marketing Growth",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/tiktok-strategist",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "tool-evaluator",
       "source": "./plugins/tool-evaluator",
       "description": "Use this agent when evaluating new development tools, frameworks, or services for the studio. This agent specializes in rapid tool assessment, comparative analysis, and making recommendations that align with the 6-day development cycle philosophy. Examples:\\n\\n<example>\\nContext: Considering a new framework or library",
@@ -1453,48 +1119,6 @@
       },
       "category": "Project & Product Management",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/tool-evaluator",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "trend-researcher",
-      "source": "./plugins/trend-researcher",
-      "description": "Use this agent when you need to identify market opportunities, analyze trending topics, research viral content, or understand emerging user behaviors. This agent specializes in finding product opportunities from TikTok trends, App Store patterns, and social media virality. Examples:\\n\\n<example>\\nContext: Looking for new app ideas based on current trends\\nuser: \"What's trending on TikTok that we could build an app around?\"\\nassistant: \"I'll research current TikTok trends that have app potential. Let me use the trend-researcher agent to analyze viral content and identify opportunities.\"\\n<commentary>\\nWhen seeking new product ideas, the trend-researcher can identify viral trends with commercial potential.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Validating a product concept against market trends\\nuser: \"Is there market demand for an app that helps introverts network?\"\\nassistant: \"Let me validate this concept against current market trends. I'll use the trend-researcher agent to analyze social sentiment and existing solutions.\"\\n<commentary>\\nBefore building, validate ideas against real market signals and user behavior patterns.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Competitive analysis for a new feature\\nuser: \"Our competitor just added AI avatars. Should we care?\"\\nassistant: \"I'll analyze the market impact and user reception of AI avatars. Let me use the trend-researcher agent to assess this feature's traction.\"\\n<commentary>\\nCompetitive features need trend analysis to determine if they're fleeting or fundamental.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Finding viral mechanics for existing apps\\nuser: \"How can we make our habit tracker more shareable?\"\\nassistant: \"I'll research viral sharing mechanics in successful apps. Let me use the trend-researcher agent to identify patterns we can adapt.\"\\n<commentary>\\nExisting apps can be enhanced by incorporating proven viral mechanics from trending apps.\\n</commentary>\\n</example>",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Data Analytics",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/trend-researcher",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "twitter-engager",
-      "source": "./plugins/twitter-engager",
-      "description": "Twitter Engager subagent",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Marketing Growth",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/twitter-engager",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "ui-designer",
-      "source": "./plugins/ui-designer",
-      "description": "Use this agent when creating user interfaces, designing components, building design systems, or improving visual aesthetics. This agent specializes in creating beautiful, functional interfaces that can be implemented quickly within 6-day sprints. Examples:\\n\\n<example>\\nContext: Starting a new app or feature design",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Design UX",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ui-designer",
       "keywords": [
         "subagent"
       ]
@@ -1514,20 +1138,6 @@
       ]
     },
     {
-      "name": "ux-researcher",
-      "source": "./plugins/ux-researcher",
-      "description": "Use this agent when conducting user research, analyzing user behavior, creating journey maps, or validating design decisions through testing. This agent specializes in understanding user needs, pain points, and behaviors to inform product decisions within rapid development cycles. Examples:\\n\\n<example>\\nContext: Understanding user needs for a new feature",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Design UX",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ux-researcher",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "vision-specialist",
       "source": "./plugins/vision-specialist",
       "description": "Expert in vision models, OCR systems, barcode detection, and visual AI. Stays current with latest models (GPT-4V, Claude Vision, Mistral-OCR, etc.), optimization techniques, and specialized libraries. Use PROACTIVELY for image processing, document analysis, or visual AI tasks.",
@@ -1542,20 +1152,6 @@
       ]
     },
     {
-      "name": "visual-storyteller",
-      "source": "./plugins/visual-storyteller",
-      "description": "Use this agent when creating visual narratives, designing infographics, building presentations, or communicating complex ideas through imagery. This agent specializes in transforming data and concepts into compelling visual stories that engage users and stakeholders. Examples:\\n\\n<example>\\nContext: Creating app onboarding illustrations",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Design UX",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/visual-storyteller",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
       "name": "web-dev",
       "source": "./plugins/web-dev",
       "description": "Use this agent for expert assistance with web development tasks using React, Next.js, NestJS, and other modern web frameworks with TypeScript and Tailwind CSS. This includes code analysis, component creation, debugging, performance optimization, and architectural decisions. Examples: <example>Context: User is building a Next.js app and encounters a routing issue. user: 'My dynamic routes in Next.js are not rendering correctly' assistant: 'Let me use the web-dev agent to analyze your Next.js routing setup and provide a solution' <commentary>This is a Next.js-specific routing issue, so the web-dev agent will provide targeted guidance.</commentary></example> <example>Context: User needs a reusable React component with Tailwind CSS. user: 'I need a card component that matches my app's Tailwind-based design system' assistant: 'I'll use the web-dev agent to create a TypeScript-based React card component styled with Tailwind CSS, following your app's design patterns' <commentary>The user requires a component that aligns with their Tailwind CSS design system, so the web-dev agent ensures compatibility.</commentary></example>",
@@ -1565,20 +1161,6 @@
       },
       "category": "Development Engineering",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/web-dev",
-      "keywords": [
-        "subagent"
-      ]
-    },
-    {
-      "name": "whimsy-injector",
-      "source": "./plugins/whimsy-injector",
-      "description": "PROACTIVELY use this agent after any UI/UX changes to ensure delightful, playful elements are incorporated. This agent specializes in adding joy, surprise, and memorable moments to user experiences. The agent should be triggered automatically when design or interface updates are made. Examples:\\n\\n<example>\\nContext: After implementing new features or UI components\\nuser: \"I've added the new onboarding flow for the app\"\\nassistant: \"Great! I've implemented the onboarding flow. Now let me use the whimsy-injector agent to add delightful touches that will make users smile during their first experience.\"\\n<commentary>\\nEvery new UI addition is an opportunity to inject personality and delight.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: When error states or empty states are created\\nuser: \"Set up error handling for the payment flow\"\\nassistant: \"I've implemented the error handling. Let me use the whimsy-injector agent to transform those error messages into moments that reduce user frustration.\"\\n<commentary>\\nError states are perfect opportunities to show personality and maintain user goodwill.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: After creating standard UI components\\nuser: \"Build a loading spinner for the data fetch\"\\nassistant: \"I've created the basic loading functionality. Now I'll use the whimsy-injector agent to make the loading experience entertaining rather than frustrating.\"\\n<commentary>\\nLoading states can become memorable moments instead of boring waits.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: When reviewing completed features\\nuser: \"The user profile page is done\"\\nassistant: \"Perfect! The profile page is complete. Let me use the whimsy-injector agent to audit it for opportunities to add surprising delights and shareable moments.\"\\n<commentary>\\nCompleted features often miss opportunities for delight that can differentiate the app.\\n</commentary>\\n</example>",
-      "version": "1.0.0",
-      "author": {
-        "name": "Michael Galpert"
-      },
-      "category": "Design UX",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/whimsy-injector",
       "keywords": [
         "subagent"
       ]
